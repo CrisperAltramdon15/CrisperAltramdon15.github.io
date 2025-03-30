@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: century Arial, Helvetica, sans-serif;
+}
+body{background-image: url(gifbackground.gif);
+background-repeat: no-repeat; background-size: cover;}
+.headd{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px rgb(255, 255, 255) solid;
+    align-items: center;
+    padding: 25px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+header{padding-bottom: 210px;}
+
+#bads{
+    color: yellow;
+}
+.menubar nav{
+    display: flex;
+
+}
+.menunav li{
+    padding-left: 55px;
+    list-style: none;
+}
+.menunav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.simboltxt{
+    color: white;
+    font-size: 18px;
+
+}
+.main1{
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 210px;
+    margin-right: 210px;
+    display: flex;
+    padding-left: 60px;
+    padding-right: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    
+}
+.mainIcon{margin-right: 22px;}
+.mainIcon img{
+    height: 300px;
+    width: 280px;
+    border: solid white 1px;
+}
+#tagcolor1{
+    color: rgb(255, 0, 0);
+}
+#tagcolor2{
+    color: rgb(238, 255, 0);
+}
+#tagcolor3{
+    color: rgb(255, 0, 221);
+}
+.tags{display: flex;
+margin-top: 5px;
+margin-bottom: 22px;}
+.tags h2{
+    padding-right: 15px;
+font-size: 20px;
+}
+.maintext{
+    color: aliceblue;
+}
+
+.findme{
+    display: flex;
+    justify-content: center;
+}
+.findme div{
+    margin-left: 30px;
+    border: 1px solid white;
+    margin-right: 30px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    font-weight: bold;
+    padding-bottom: 45px;
+}
+.findme div:hover{
+
+color: rgb(0, 217, 255);
+font-size: 20px;
+border: 3px solid rgb(0, 225, 255);
+}
+.findme img{
+    width: 350px;
+    height: auto;
+}
+
+
+.find{display: flex;
+justify-content: center;
+color: white;
+font-size: 25px;
+margin-bottom: 30px;}
+.footerabout{
+    margin-top: 230px;
+    background-color: black;
+    padding-top: 40px;
+
+
+}
+
+.footerabout ul {
+    display: flex;
+    justify-content: space-around;
+}
+.footerabout li{
+    margin-bottom: 20px;
+}
+.footerabout a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
